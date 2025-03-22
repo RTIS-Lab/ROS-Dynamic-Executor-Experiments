@@ -1,0 +1,15 @@
+{
+  "build":{
+    # "symlink-install": true,
+    "cmake-args": [
+      "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+      "-DCMAKE_EXPORT_COMPILE_COMMANDS=True",
+      "-GNinja",
+      # clang
+      "-DCMAKE_C_COMPILER=clang-18",
+      "-DCMAKE_CXX_COMPILER=clang++-18",
+    ],
+    "event-handlers": ["console_cohesion+"],
+    # "mixin": "clang",
+  }
+}
