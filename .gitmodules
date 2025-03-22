@@ -1,0 +1,3 @@
+[submodule "src/ros_edf"]
+	path = src/ros_edf
+	url = https://github.com/RTIS-Lab/ROS-Dynamic-Executor
